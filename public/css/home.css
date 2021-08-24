@@ -1,0 +1,31 @@
+.content-home{
+    margin: 40px 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.count ul{
+    list-style: none;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.count ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 20px;
+}
+.count ul li span{
+    display: inline;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(39, 102, 120);
+    background-color: rgb(211, 224, 234);
+    border-radius: 8px;
+}
