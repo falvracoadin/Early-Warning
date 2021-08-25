@@ -21,11 +21,25 @@
     display: inline;
     width: 70px;
     height: 30px;
-    padding: 5px;
     font-weight: bold;
     line-height: 20px;
     text-align: center;
     color: rgb(39, 102, 120);
     background-color: rgb(211, 224, 234);
     border-radius: 8px;
+}
+
+@media screen and (max-width:576px) {
+    .count ul{
+        width: 70vw;
+        text-align: left;
+    }
+    .count ul li{
+        height: 40px;
+    }
+    .count ul li span{
+        height: 30px;
+        margin: 5px 0;
+        line-height: 40px;
+    }
 }

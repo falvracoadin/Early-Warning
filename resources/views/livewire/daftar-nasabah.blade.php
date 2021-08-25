@@ -49,7 +49,7 @@
     </div>
 
     @if ($total > 0)
-      <nav>
+      <nav class="pagin">
           <ul class="pagination">
               {{-- Previous Page Link --}}
               @if ($current == 1)

@@ -16,7 +16,7 @@
 @stop
 
 @section('css')
-
+    <link rel="stylesheet" href="{{ asset('css/chart.css') }}">
 @endsection
 
 @section('js')
